@@ -19,3 +19,19 @@ This project is being developed as part of my Frontend AI Engineering track, foc
 ## Author
 
 Annet Gatende — [Annet's Tech Journey](https://annettechjourney.blogspot.com) | [YouTube](https://youtube.com/@annetgatende)
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Setup
+```bash
+git clone https://github.com/AnnetGatende/flyrank-capstone.git
+cd flyrank-capstone
+npm install
+npm run dev
+```
+
+The app will be available at http://localhost:5173.
