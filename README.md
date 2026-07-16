@@ -42,3 +42,12 @@ The app will be available at http://localhost:3000.
 ## Live Preview
 
 https://flyrank-capstone-blush.vercel.app/
+
+## Routes
+
+- `/` — Dashboard
+- `/add-debt` — Add Debt
+- `/customers` — Customers list
+- `/customers/[id]` — Customer ledger detail
+- `/settings` — Settings
+- `/health` — Health check (fetches and renders live data; not linked in nav, verifies deployment health)
