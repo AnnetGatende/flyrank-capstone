@@ -1,37 +1,44 @@
-# FlyRank Capstone Project
+# Kitabu ya Deni — FlyRank Capstone Project
 
-A frontend AI engineering capstone project built during the FlyRank AI Internship (2026 cohort).
+A digital credit ledger for small Kenyan shopkeepers, built during the FlyRank AI Internship (2026 cohort), Frontend AI Engineering track.
 
 ## About
 
-This project is being developed as part of my Frontend AI Engineering track, focused on applying AI-assisted development workflows to build a real-world frontend application.
+Kitabu ya Deni ("book of debt") replaces the paper ledger many shopkeepers use to track customer debts. Planned features include voice-based debt logging, partial payments, WhatsApp reminders, and a customer trust score — layered in across the internship as the project develops.
 
 ## Tech Stack
 
-- React
+- Next.js (App Router)
 - TypeScript
-- Vite
+- Tailwind CSS
+- Deployed on Vercel
 
 ## Status
 
-🚧 In active development — Week 1 setup phase.
+🚧 In active development — Week 3, Foundations phase. Routed placeholders exist for all planned screens; features are being built incrementally.
 
 ## Author
 
-Annet Gatende — [Annet's Tech Journey](https://annettechjourney.blogspot.com) | [YouTube](https://youtube.com/@annetgatende)
+Annet Gatende — [Annet's Tech Journey](#)
 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - npm
 
 ### Setup
-```bash
+
+\`\`\`
 git clone https://github.com/AnnetGatende/flyrank-capstone.git
 cd flyrank-capstone
 npm install
 npm run dev
-```
+\`\`\`
 
-The app will be available at http://localhost:5173.
+The app will be available at http://localhost:3000.
+
+## Live Preview
+
+https://flyrank-capstone-blush.vercel.app/
