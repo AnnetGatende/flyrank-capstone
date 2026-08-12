@@ -5,6 +5,7 @@ const links = [
   { href: "/add-debt", label: "Add Debt" },
   { href: "/customers", label: "Customers" },
   { href: "/settings", label: "Settings" },
+  { href: "/chat", label: "Chat" }, // Added Chat link here
 ];
 
 export function Nav() {
