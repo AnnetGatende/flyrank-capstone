@@ -67,9 +67,9 @@ export function Sidebar() {
 
       {/* Auth Section placed at the bottom */}
       <div className="mt-auto border-t border-[#D4AF37]/20 pt-4 px-2">
-        {/* Only render UserButton on the client, and explicitly force the redirect URL */}
-        {isMounted && <UserButton afterSignOutUrl="/" showName={true} />}
-      </div>
+    {/* Removed the deprecated afterSignOutUrl prop */}
+    {isMounted && <UserButton showName={true} />}
+  </div>
     </>
   );
 
